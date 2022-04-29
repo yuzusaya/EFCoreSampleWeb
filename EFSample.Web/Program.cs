@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton(builder.Configuration);
+#warning connection string to be changed in appsettings.json
 builder.Services.AddDbContext<EfsampleDatabaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnectionString")));
 
