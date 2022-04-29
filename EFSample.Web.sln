@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32422.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSample.Web", "EFSample.Web\EFSample.Web.csproj", "{EF84FFB8-6428-4EE3-A15D-2F6918A54076}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EFSample.Database", "EFSample.Database\EFSample.Database.sqlproj", "{6BC5D102-FD31-4F4C-84CB-488CE13914CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF84FFB8-6428-4EE3-A15D-2F6918A54076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF84FFB8-6428-4EE3-A15D-2F6918A54076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF84FFB8-6428-4EE3-A15D-2F6918A54076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF84FFB8-6428-4EE3-A15D-2F6918A54076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC5D102-FD31-4F4C-84CB-488CE13914CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC5D102-FD31-4F4C-84CB-488CE13914CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC5D102-FD31-4F4C-84CB-488CE13914CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6BC5D102-FD31-4F4C-84CB-488CE13914CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC5D102-FD31-4F4C-84CB-488CE13914CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC5D102-FD31-4F4C-84CB-488CE13914CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F387C96A-76C0-40E0-BAF3-7A2B494A1090}
+	EndGlobalSection
+EndGlobal
